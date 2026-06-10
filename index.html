@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Untitled</title>
+    <link rel="stylesheet" href="./style.css">
+
+  </head>
+    
+  <body>
+  <!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BioAlerta - A Era dos Agrotóxicos</title>
+    <!-- Link para o arquivo CSS externo -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+
+    <!-- 🌻 FIGURAS FOFAS ESPALHADAS PELA TELA -->
+    <div class="decoracoes">
+        <!-- Espantalho fofo à esquerda -->
+        <img src="https://png.pngtree.com/png-clipart/20250517/original/pngtree-cute-cartoon-scarecrow-with-open-arms-png-image_21003735.png" alt="Espantalho fofo" class="figura espantalho">
+        <!-- Abelha voando à direita -->
+        <img src="https://static.vecteezy.com/system/resources/thumbnails/040/351/284/small/little-bee-watercolor-clipart-a-cartoon-illustration-of-love-and-happiness-png.png" alt="Abelhinha" class="figura abelha">
+        <!-- Joaninha embaixo à esquerda -->
+        <img src="https://static.vecteezy.com/system/resources/thumbnails/054/584/801/small/colorful-ladybug-crawling-on-a-leaf-png.png" alt="Joaninha" class="figura joaninha">
+        <!-- Vaquinha feliz embaixo à direita -->
+        <img src="https://static.vecteezy.com/system/resources/previews/013/211/278/non_2x/cartoon-of-cow-illustration-cow-in-format-image-illustration-of-cow-free-png.png" alt="Vaquinha" class="figura vaca">
+        <!-- Maçã fofa flutuando -->
+        <img src="https://static.vecteezy.com/system/resources/thumbnails/051/674/564/small/green-apple-with-half-slice-and-leaf-on-transparent-background-free-png.png" alt="Maçã" class="figura maca">
+    </div>
+
+    <!-- 🌅 TOPO DO SITE (HEADER) -->
+    <header>
+        <h1 class="logo-site">BioAlerta</h1>
+        <h2 class="titulo-capa">A Era dos Agrotóxicos</h2>
+        <p class="subtitulo">O impacto invisível que está sufocando a nossa terra.</p>
+    </header>
+
+    <!-- 📦 CONTEÚDO PRINCIPAL: OS QUATRO QUADROS VERTICAIS LADO A LADO -->
+    <main class="container-assuntos">
+
+        <!-- 🟥 QUADRO 1: VERMELHO - O REMÉDIO DA PLANTA -->
+        <section class="quadro-vertical quadro-vermelho">
+            <div>
+                <!-- Ilustração de Plantinha/Broto fofo -->
+                <img src="https://images.vexels.com/media/users/3/302153/isolated/preview/eacdff8572b668cd9772b4aca16a1cf3-planta-vaso-de-aquarela.png" alt="Planta" class="imagem-card">
+                <h2>O Remédio da Planta</h2>
+                
+                <div class="secao-texto">
+                    <h3>O que é?</h3>
+                    <p>Defensivos químicos criados para proteger lavouras contra insetos perigosos e doenças destruidoras.</p>
+                </div>
+                
+                <div class="secao-texto">
+                    <h3>Consequências</h3>
+                    <p>Usar remédio sem a planta estar doente mata polinizadores bons e envenena os lençóis freáticos.</p>
+                </div>
+                
+                <div class="secao-texto">
+                    <h3>Intervenção</h3>
+                    <p>Aplicar somente com receita médica agrícola e na quantidade exata para não sobrecarregar a natureza.</p>
+                </div>
+            </div>
+
+            <div class="espaco-jogo">
+                <h4>Mini Game 🎮</h4>
+                <p>Acerte a dose certa para salvar o broto!</p>
+                <button class="btn-jogar" onclick="iniciarJogo1()">Jogar</button>
+            </div>
+        </section>
+
+        <!-- 🟧 QUADRO 2: LARANJA - PERÍODO DE CARÊNCIA -->
+        <section class="quadro-vertical quadro-laranja">
+            <div>
+                <!-- Ilustração de Plantação/Trator fofo -->
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRC5vTfoQElTI6559vJcQZvJz0bTNpD9ZVwugEAOhFI9g&s=10" alt="Plantação" class="imagem-card">
+                <h2>Período de Carência</h2>
+                
+                <div class="secao-texto">
+                    <h3>O que é?</h3>
+                    <p>O intervalo obrigatório de dias entre a última borrifada do produto e o dia oficial de colheita.</p>
+                </div>
+                
+                <div class="secao-texto">
+                    <h3>Consequências</h3>
+                    <p>Desrespeitar esse tempo faz os alimentos irem para os mercados carregados de veneno ativo.</p>
+                </div>
+                
+                <div class="secao-texto">
+                    <h3>Intervenção</h3>
+                    <p>Seguir à risca o calendário técnico do produto e fiscalizar os lotes antes de irem para a cidade.</p>
+                </div>
+            </div>
+
+            <div class="espaco-jogo">
+                <h4>Mini Game 🎮</h4>
+                <p>Espere o tempo seguro antes de colher!</p>
+                <button class="btn-jogar" onclick="iniciarJogo2()">Jogar</button>
+            </div>
+        </section>
+
+        <!-- 🟪 QUADRO 3: ROXO - USO DE EPIS -->
+        <section class="quadro-vertical quadro-roxo">
+            <div>
+                <!-- Ilustração de Fazendeiro fofo -->
+                <img src="https://png.pngtree.com/png-vector/20230814/ourmid/pngtree-farm-area-and-barn-sticker-vector-png-image_6898060.png" alt="Fazendeiro" class="imagem-card">
+                <h2>Uso de EPIs</h2>
+                
+                <div class="secao-texto">
+                    <h3>O que é?</h3>
+                    <p>Roupas de proteção especiais (máscara, luvas, botas e macacões) usadas pelos aplicadores no campo.</p>
+                </div>
+                
+                <div class="secao-texto">
+                    <h3>Consequências</h3>
+                    <p>Trabalhar desprotegido causa tonturas imediatas e doenças graves crônicas na saúde do agricultor.</p>
+                </div>
+                
+                <div class="secao-texto">
+                    <h3>Intervenção</h3>
+                    <p>Treinar as equipes do campo e exigir o uso diário dos equipamentos de forma correta e limpa.</p>
+                </div>
+            </div>
+
+            <div class="espaco-jogo">
+                <h4>Mini Game 🎮</h4>
+                <p>Equipe o trabalhador com segurança!</p>
+                <button class="btn-jogar" onclick="iniciarJogo3()">Jogar</button>
+            </div>
+        </section>
+
+        <!-- 🟦 QUADRO 4: AZUL - DESTINO DAS EMBALAGENS -->
+        <section class="quadro-vertical quadro-azul">
+            <div>
+                <!-- Ilustração de Reciclagem/Galão -->
+                <img src="https://meiosustentavel.com.br/wp-content/uploads/2020/08/eco-3516734_1920.png" alt="Reciclagem" class="imagem-card">
+                <h2>Destino das Embalagens</h2>
+                
+                <div class="secao-texto">
+                    <h3>O que é?</h3>
+                    <p>O descarte correto e devolução dos potes plásticos vazios que guardavam os agrotóxicos.</p>
+                </div>
+                
+                <div class="secao-texto">
+                    <h3>Consequências</h3>
+                    <p>Deixar galões jogados na terra ou queimá-los polui o ar e intoxica os animais rurais domésticos.</p>
+                </div>
+                
+                <div class="secao-texto">
+                    <h3>Intervenção</h3>
+                    <p>Fazer a lavagem tripla protetora, furar o pote e devolver nos centros de recebimento agrícola.</p>
+                </div>
+            </div>
+
+            <div class="espaco-jogo">
+                <h4>Mini Game 🎮</h4>
+                <p>Faça a lavagem tripla e recicle!</p>
+                <button class="btn-jogar" onclick="iniciarJogo4()">Jogar</button>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- 👣 RODAPÉ (FOOTER) -->
+    <footer>
+        <p class="creditos">Criadora: <span>Giovana Diniz</span></p>
+    </footer>
+
+    <!-- Link para o arquivo JavaScript de jogos -->
+    <script src="script.js"></script>
+</body>
+</html>
+    <script  src="./script.js"></script>
+
+  </body>
+  
+</html>
